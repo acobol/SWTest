@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Whalar Code test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the code test for Whalar interview process.
+Uses create-react-app as skeleton for the app to accelerate the process.
 
-## Available Scripts
+To run the application you need node >= 14.
 
-In the project directory, you can run:
+## Scripts
 
-### `npm start`
+### Start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`npm run start`: This script initializes the development environment.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Build
 
-### `npm test`
+`npm run build`: Builds the app for production to the build folder.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Test
 
-### `npm run build`
+`npm run test`: Run the unit tests. (Not test implementation yet).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### E2E
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`npm run e2e`: Run the end to end test. (Not test implementation yet, just cypress installed)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Aditional dependencies
 
-### `npm run eject`
+The following dependencies where added to easy some tasks:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  - sass: To use sass as a css preprocessor
+  - cypress: To run e2e tests
+  - react-router-dom: To easy the routes managing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Improvements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Next to this document there is a [Ideas](./Ideas.md) document with some ideas about improvements.

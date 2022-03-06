@@ -1,0 +1,66 @@
+.characterCard {
+  width: 90%;
+  margin: 0 5%;
+  display: flex;
+  flex-direction: column;
+
+  .backButton {
+    color: aqua;
+    text-align: start;
+    &:visited {
+      color: aqua;
+    }
+  }
+
+  h2 {
+    font-size: 3rem;
+    text-align: start;
+  }
+
+  .characterInfo {
+    color: #6ea028;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #4a4f5a;
+
+    .attribute {
+      display: flex;
+      flex-direction: row;
+      margin: 5% 0%;
+    }
+  }
+
+  .characterFilms {
+    h3 {
+      font-size: 2rem;
+      color: #b03a63;
+    }
+    text-align: start;
+  }
+
+  h3 {
+    text-align: start;
+  }
+  
+  @media screen and (min-width: 769px) {
+
+    .backButton::after {
+      content: " Back to main list";
+    }
+
+
+    .characterInfo {
+      flex-direction: row;
+      justify-content: space-between;
+
+      .attribute {
+        justify-content: center;
+        width: 30%;
+      }
+    }
+  }
+
+}

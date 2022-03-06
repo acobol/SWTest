@@ -1,0 +1,19 @@
+.app {
+  text-align: center;
+
+  .appHeader {
+    background-color: #282c34;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(40px + 2vmin);
+    font-family: "STARWARS";
+
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+}
